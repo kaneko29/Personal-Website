@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+body { 
+	
+	background-color: #F7FFF6;
+	margin: 0;
+}
+
+/* Navigation Bar */
+/* Inspired by W3Schools*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6a775a;
+  background-color: #8ea678;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2vw 2vw;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #6a775a;
+}
+.active {
+  background-color: #2D4739;
+}
+
+/* Big Image at start of page */
+
+.homeimage {
+	margin-top: 0%;
+	background-image: url("images/cape2.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	height: 40vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+	
+
+
+/*  image source: https://commons.wikimedia.org/wiki/File:Salvador_Dali_A_(Dali_Atomicus)_09633u.jpg */
+
+
+.spanimage {
+	margin-top: 0%;
+	background-image: url("images/langimage.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.csimage {
+	margin-top: 0%;
+	background-image: url("images/csimage.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* image source: https://www.reddit.com/r/PewdiepieSubmissions/comments/ak0mz6/mrnewton_whatch_out_the_apple_will_hit_your_head/ */
+.physicsimage {
+	margin-top: 0%;
+	background-image: url("images/physicsimage.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* Image source: https://commons.wikimedia.org/wiki/File:Ape_skeletons.png*/
+.humimage {
+	margin-top: 0%;
+	background-image: url("images/humimage3.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* Image source: https://commons.wikimedia.org/w/index.php?search=pythagoras&title=Special:MediaSearch&go=Go&type=image */
+.mathimage {
+	margin-top: 0%;
+	background-image: url("images/mathimage.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* Image source: https://commons.wikimedia.org/wiki/File:M_Faraday_Lab_H_Moore.jpg */
+
+.stemimage {
+	margin-top: 0%;
+	background-image: url("images/stemimage.jpg");
+	padding: 10vh 15vw 40vh 15vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 5vh;
+	max-height: 10vw;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+.firsth1{
+	display: block;
+	margin-top: 0vh;
+	margin-bottom: 0vh;
+	text-align: center;
+	background-color: #BCEBCB;
+	font-size: 8vw;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+.firsth2 {
+	text-align: center;
+	background-color: #93B48B;
+	font-size: 5vw;
+	margin: 10vh 5vw 0vh 5vw;
+}
+
+/* First and Second Content Paragraphs. W3 Schools helped me with the flexboxes*/
+
+h2 {
+	text-align: center;
+	background-color: #93B48B;
+	font-size: 5vw;
+	margin-right: 3vw;
+	margin-left: 3vw;
+}
+
+h3 {
+	text-align: center;	
+	background-color: #bedfb3;
+	font-size: 4vw;
+	margin-right: 2vw;
+	margin-left: 2vw;
+}
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+p {
+	font-size: 2.1vw;
+	margin-right: 5vh;
+	margin-left: 5vh;
+
+}
+.content {
+	background-color: #e9eee9 ;	
+	display: block;
+	margin: 1vh 1vw 1vh 1vw;
+	border-style: solid;
+	border-width: 1vw;
+	border-color: #87D68D;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	overflow: auto;
+	width: 44vw;	
+}
+
+.center {
+	display: block;
+	margin: auto;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	width: 80%;
+}
+
+/* Third content paragraph styling*/
+
+.flexcontainer2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+.content2 {
+	background-color: #e9eee9 ;
+	display: block;
+	margin: 1vh 1vw 1vh 1vw;
+	border-style: solid;
+	border-width: 1vw;
+	border-color: #87D68D;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	overflow: auto;
+	width: 92vw;	
+}
+
+/* Iframe styling*/
+.frame {
+    width: 100%;
+    height: 100%;
+    }
+
+
+
+
